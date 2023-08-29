@@ -4,6 +4,7 @@
 This repository contains Python code developed for the data co-alignment process of the Solar Acoustic Halos project using HMI Continuum data from the Solar Dynamics Observatory (SDO) telescope. The project aims to analyze time-series images of the Sun's surface to study acoustic halos, which are phenomena caused by solar oscillations propagating through the Sun's interior and resulting in localized intensity variations on the solar surface.
 
 ## Code Overview
+- **Filename:** `solar_data_alignment.py`
 
 1. **Data Collection:**
    - Continuum and Dopplergram data are collected from specified paths.
@@ -31,7 +32,7 @@ This repository contains Python code developed for the data co-alignment process
 1. Make sure you have the required libraries installed. You can install them using the following command:
    
    ```bash
-   pip install sunpy matplotlib sunkit-image pfsspy astropy
+   pip install sunpy sunkit-image pfsspy astropy
 
 
 ## Contributing
